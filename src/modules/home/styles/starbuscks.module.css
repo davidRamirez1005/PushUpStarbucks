@@ -1,0 +1,13 @@
+.thumbs{
+    display: flex;
+    gap: 2rem;
+}
+.thumb{
+    cursor: pointer;
+    transition: 0.8s;
+    filter: brightness(0.5);
+}
+.thumb:hover{
+    scale: 1.1;
+    filter: brightness(1);
+}

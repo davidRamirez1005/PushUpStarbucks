@@ -1,0 +1,48 @@
+.container{
+    background-color: #144272;
+    z-index: 1000;
+    height: auto;
+    max-width: 100% !important;
+    margin-top: 0;
+    position: fixed;
+    filter: drop-shadow(1px 1px 4px rgba(0, 0, 0, 0.74));
+    border-bottom-left-radius: 34px;
+    border-bottom-right-radius: 34px;
+}
+
+ul{
+    margin : 8px !important;
+    display: flex;
+    flex-direction: row;
+    right: 0;
+    align-items: center;
+    justify-content: flex-end;
+    gap : 3.2rem;
+    padding-right: 6%;
+}
+.logo{
+    display: flex;
+    padding-left: 5% !important;
+}
+li {
+    display: flex;
+    padding: 0.5rem;
+    align-self: center;
+    font-weight: bolder;
+    color: #070530;
+    text-decoration: none;
+
+}
+.respoBurguer{
+    display: none;
+}
+@media (max-width: 767px) {
+    /* Estilos para dispositivos móviles */
+    .respo{
+        display: none;
+    }
+    .respoBurguer{
+        display: flex;
+    }
+
+}

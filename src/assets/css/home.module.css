@@ -1,0 +1,36 @@
+.image{
+    display: flex;
+    position: relative;
+    top: 5rem;
+    justify-content: flex-end;
+        background-color: green;
+        padding-right: 5rem;
+        z-index: -1;
+        padding-top: 2rem;
+        border-radius: 6rem;
+}
+.iconos{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    position: relative;
+    top: -15rem;
+    justify-content: flex-end;
+    align-content: center;
+}
+.starburks{
+    display: flex;
+    position: fixed;
+    bottom: 2rem;
+    justify-content: center;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+    top: 8rem;
+    color: green;
+}
